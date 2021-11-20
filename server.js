@@ -11,7 +11,7 @@ const server = http.Server( app );
 const io = socketIO( server );
 
 // 定数
-const PORT = process.env.PORT || 1337;
+const PORT = process.env.PORT || 3000;
 const SYSTEMNICKNAME = '**system**'
 
 // 関数
