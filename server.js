@@ -130,7 +130,7 @@ app.use( express.static( __dirname + '/public' ) );
 
 // サーバーの起動
 server.listen(
-    PORT,
+    PORT, "0.0.0.0", 
     () =>
     {
         console.log( 'Server on port %d', PORT );
